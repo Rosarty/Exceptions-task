@@ -1,0 +1,7 @@
+package app.utils;
+
+public class HeightException extends RuntimeException {
+    public HeightException(String msg) {
+        super(msg);
+    }
+}
